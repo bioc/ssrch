@@ -3,7 +3,9 @@
 \name{ds_can1009b}
 \alias{ds_can1009b}
 \title{DocSet instance with metadata from 1009 cancer studies}
-\format{S4 class DocSet defined in ssrch}
+\format{
+S4 class DocSet defined in ssrch
+}
 \usage{
 ds_can1009b()
 }

@@ -4,7 +4,9 @@
 \name{titles68}
 \alias{titles68}
 \title{titles for 68 cancer studies}
-\format{character vector}
+\format{
+character vector
+}
 \usage{
 titles68
 }

@@ -4,14 +4,21 @@
 \alias{parseDoc}
 \title{parse a document and place content in a DocSet}
 \usage{
-parseDoc(csv, DocSetInstance = new("DocSet"), doctitle = NA_character_,
-  docabst = NA_character_, rec_id_field = "experiment.accession",
+parseDoc(
+  csv,
+  DocSetInstance = new("DocSet"),
+  doctitle = NA_character_,
+  docabst = NA_character_,
+  rec_id_field = "experiment.accession",
   exclude_fields = c("study.accession"),
   substrings_to_omit = c("http://purl.obolibrary.org/obo/"),
   patterns_to_kill = "....-..-..|.*...,...",
-  token_fixups = list(c("t''", "t'"), c(":$", "")), max_tok_nchar = 25,
-  min_tok_nchar = 4, cleanFields = list("..*id$", ".name$", "_name$",
-  "checksum", "isolate", "filename", "^ID$", "barcode", "Sample.Name"))
+  token_fixups = list(c("t''", "t'"), c(":$", "")),
+  max_tok_nchar = 25,
+  min_tok_nchar = 4,
+  cleanFields = list("..*id$", ".name$", "_name$", "checksum", "isolate", "filename",
+    "^ID$", "barcode", "Sample.Name")
+)
 }
 \arguments{
 \item{csv}{a character(1) CSV file path}

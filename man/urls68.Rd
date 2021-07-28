@@ -4,7 +4,9 @@
 \name{urls68}
 \alias{urls68}
 \title{pubmed URLs for subset of 68 cancer studies}
-\format{character vector}
+\format{
+character vector
+}
 \usage{
 urls68
 }

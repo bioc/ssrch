@@ -4,7 +4,9 @@
 \name{docset_cancer68}
 \alias{docset_cancer68}
 \title{DocSet instance with metadata from 68 cancer studies}
-\format{S4 class DocSet defined in ssrch}
+\format{
+S4 class DocSet defined in ssrch
+}
 \usage{
 docset_cancer68
 }

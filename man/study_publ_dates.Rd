@@ -4,7 +4,9 @@
 \name{study_publ_dates}
 \alias{study_publ_dates}
 \title{publication dates for 6000 SRA transcriptome studies}
-\format{data.frame}
+\format{
+data.frame
+}
 \usage{
 study_publ_dates
 }
